@@ -38,7 +38,6 @@ public class CategoryView extends AppCompatActivity {
         Thread thread = new Thread(new Runnable() {
             Bitmap mIcon_val = null;
             ;
-
             @Override
             public void run() {
                 try {
